@@ -7,15 +7,19 @@ using namespace std;
 class Produto{
     private:
         string nome, descricao;
+        int quantidade ;
+        float preco;
         
     public:     // METODO CONSTRUTOR
         Produto(){
 
         }
 
-        Produto(string n , string desc){
+        Produto(string n , string desc, int quant, float prec){
+            quantidade = quant;
             nome = n;
             descricao = desc;
+            preco = prec;
         }
 
         void Inserir(){
