@@ -23,7 +23,26 @@ class Produto{
         }
 
 		void menu(){
-			
+			cout << "BEM VINDO A TOURO TEC" << endl;
+        	cout << "1-Computadores" << endl;
+        	cout << "2-Notebooks" << endl;
+        	cout << "3-Servicos" << endl;
+        	cout << "4-Sair" << endl;
+        
+        	cin >> resp;
+
+        	switch (resp) {
+            	case 1:
+                	comp.MenuComputador();
+                	break;
+            	case 2:
+                	note.MenuNotebook();
+                	break;
+            	case 3:
+                	return 0;  // Termina o programa
+            	default:
+                	cout << "Opcao invalida! Tente novamente." << endl;
+		}
 
 		void Menu_2(){
 			int resp;
