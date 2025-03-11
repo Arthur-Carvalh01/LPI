@@ -22,7 +22,10 @@ class Produto{
             preco = prec;
         }
 
-		void Menu(){
+		void menu(){
+			
+
+		void Menu_2(){
 			int resp;
 
 			cout << "1-Inserir" << endl;
