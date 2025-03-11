@@ -1,23 +1,17 @@
 #include <iostream>
-#include "Produto.cpp"
-#include "Computador.cpp"
-#include "Notebook.cpp"
-#include "Servico.cpp"
+#include <fstream>
+#include <string>
+#include "Gerenciador.cpp"
 
 using namespace std;
 
+Gerenciador gerenciar;
 int main() {
-    Produto prod;
-    Computador comp(10);  // Exemplo: 10 unidades
-    Notebook note(5);      // Exemplo: 5 unidades
-    Servico serv;
-    int resp = 0;
+    gerenciar.menu_opcao();
 
-    while (true) {
-        
-        }
-    }
+
 }
+
 
 /*
 
